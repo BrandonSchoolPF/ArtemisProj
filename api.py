@@ -2,10 +2,9 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 #API Info
-#access_token = "X-RapidAPI-Key": "INSERT KEY"
 API_Add = 'https://adsbexchange-com1.p.rapidapi.com/v2/lat/27.943721/lon/-82.537932/dist/5/'
 #API_Host = "X-RapidAPI-Host": "adsbexchange-com1.p.rapidapi.com"
-headers = {	"X-RapidAPI-Key": "INSERT KEY",	"X-RapidAPI-Host": "adsbexchange-com1.p.rapidapi.com"}
+headers = {	"X-RapidAPI-Key" : "Insert Key",	"X-RapidAPI-Host" : "adsbexchange-com1.p.rapidapi.com"}
 
 
 # Make the request to the API
